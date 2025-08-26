@@ -1,0 +1,10 @@
+# Não farei upload dos arquivos executáveis
+bin/
+**/bin/
+.exe
+
+# Não farei upload das configurações do vscode
+.vscode/
+
+# "Gabarito" são os códigos fornecidos pela professora:
+**/gabarito/
