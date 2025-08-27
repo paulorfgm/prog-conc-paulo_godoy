@@ -1,0 +1,60 @@
+Execução 1:
+
+Soma_concorrente = 2776755712.00000000000000000000000000
+
+Soma-sequencial = 2776755712.00000000000000000000000000
+
+Variação-relativa = 0.00000000000000000000000000
+
+Tempo decorrido no sequencial = 0.000176
+
+Tempo decorrido no concorrente = 0.000393
+----------------------
+Execução 2:
+
+Soma_concorrente = 2776755712.00000000000000000000000000
+
+Soma-sequencial = 2776755712.00000000000000000000000000
+
+Variação-relativa = 0.00000000000000000000000000
+
+Tempo decorrido no sequencial = 0.000176
+
+Tempo decorrido no concorrente = 0.000430
+----------------------
+Execução 3:
+
+Soma_concorrente = 2776755712.00000000000000000000000000
+
+Soma-sequencial = 2776755712.00000000000000000000000000
+
+Variação-relativa = 0.00000000000000000000000000
+
+Tempo decorrido no sequencial = 0.000176
+
+Tempo decorrido no concorrente = 0.000754
+----------------------
+Execução 4:
+
+Soma_concorrente = 2776755712.00000000000000000000000000
+
+Soma-sequencial = 2776755712.00000000000000000000000000
+
+Variação-relativa = 0.00000000000000000000000000
+
+Tempo decorrido no sequencial = 0.000176
+
+Tempo decorrido no concorrente = 0.000578
+----------------------
+Execução 5:
+
+Soma_concorrente = 2776755712.00000000000000000000000000
+
+Soma-sequencial = 2776755712.00000000000000000000000000
+
+Variação-relativa = 0.00000000000000000000000000
+
+Tempo decorrido no sequencial = 0.000176
+
+Tempo decorrido no concorrente = 0.000642
+----------------------

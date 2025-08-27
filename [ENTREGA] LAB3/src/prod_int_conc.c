@@ -171,14 +171,12 @@ int main(int argc, char* argv[]) {
     GET_TIME(finish);
     elapsed_concorrente = finish - start;
 
-
     /*Apresentando resultados*/
     printf("\nSoma_concorrente = %.26f\n", valor_concorrente);
     printf("\nSoma-sequencial = %.26f\n", valor_sequencial);
     printf("\nVariação-relativa = %.26f\n", variacaoRelativa(valor_sequencial, valor_concorrente));
     printf("\nTempo decorrido no sequencial = %lf\n", elapsed_sequencial);
     printf("\nTempo decorrido no concorrente = %lf\n", elapsed_concorrente);
-
 
     /*Finalização do programa*/
     free(vetor_A);

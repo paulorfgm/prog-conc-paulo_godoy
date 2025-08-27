@@ -6,5 +6,6 @@ bin/
 # Não farei upload das configurações do vscode
 .vscode/
 
-# "Gabarito" são os códigos fornecidos pela professora:
+# "Gabarito" são os códigos fornecidos pela professora como parte da explanação no laboratório
 **/gabarito/
+
