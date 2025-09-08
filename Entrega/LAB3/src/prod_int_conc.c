@@ -6,7 +6,7 @@ ARQUIVO COM A SOLUÇÃO DO PRODUTO INTERNO DE FORMA CONCORRENTE
 #include <stdio.h>
 #include <stdlib.h> 
 #include <pthread.h> 
-#include "../../Headers/timer.h"
+#include "../../../Headers/timer.h"
 
 // VARIÁVEIS GLOBAIS =========================
 float *vetor_A; 

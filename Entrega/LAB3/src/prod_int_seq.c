@@ -6,7 +6,7 @@ ARQUIVO COM A SOLUÇÃO DO PRODUTO INTERNO DE FORMA SEQUENCIAL
 #include <stdio.h>
 #include <stdlib.h> 
 #include <time.h>
-#include "../../Headers/timer.h"
+#include "../../../Headers/timer.h"
 
 #define MAX 1000 //valor máximo de um elemento do vetor
 

@@ -8,7 +8,7 @@ Variação-relativa = 0.00001143204644904471933842
 
 Tempo decorrido no sequencial = 0.000176
 
-Tempo decorrido no concorrente = 0.000531
+Tempo decorrido no concorrente = 0.000605
 ----------------------
 Execução 2:
 
@@ -20,7 +20,7 @@ Variação-relativa = 0.00001143204644904471933842
 
 Tempo decorrido no sequencial = 0.000176
 
-Tempo decorrido no concorrente = 0.000325
+Tempo decorrido no concorrente = 0.000362
 ----------------------
 Execução 3:
 
@@ -32,7 +32,7 @@ Variação-relativa = 0.00001143204644904471933842
 
 Tempo decorrido no sequencial = 0.000176
 
-Tempo decorrido no concorrente = 0.000490
+Tempo decorrido no concorrente = 0.000431
 ----------------------
 Execução 4:
 
@@ -44,7 +44,7 @@ Variação-relativa = 0.00001143204644904471933842
 
 Tempo decorrido no sequencial = 0.000176
 
-Tempo decorrido no concorrente = 0.000385
+Tempo decorrido no concorrente = 0.000426
 ----------------------
 Execução 5:
 
@@ -56,5 +56,5 @@ Variação-relativa = 0.00001143204644904471933842
 
 Tempo decorrido no sequencial = 0.000176
 
-Tempo decorrido no concorrente = 0.000304
+Tempo decorrido no concorrente = 0.000404
 ----------------------

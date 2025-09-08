@@ -1,0 +1,20 @@
+Teste 1:
+Quantidade de primos = 78498
+Time: 0.074518'
+---------
+Teste 2:
+Quantidade de primos = 78498
+Time: 0.073881'
+---------
+Teste 3:
+Quantidade de primos = 78498
+Time: 0.076904'
+---------
+Teste 4:
+Quantidade de primos = 78498
+Time: 0.076332'
+---------
+Teste 5:
+Quantidade de primos = 78498
+Time: 0.079749'
+---------
