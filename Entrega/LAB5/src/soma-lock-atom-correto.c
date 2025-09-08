@@ -18,8 +18,7 @@ short int TERMINOU = 0;
 short int IMPRIMIR = 0;
 
 pthread_mutex_t mutex; 
-pthread_cond_t cond_soma;
-pthread_cond_t cond_extra;
+pthread_cond_t cond;
 
 /*FUNÇÕES DAS THREADS*/
 
@@ -29,12 +28,12 @@ void *ExecutaTarefa(void *arg) {
     //--Seção crítica
     pthread_mutex_lock(&mutex);
     while(IMPRIMIR) {
-      pthread_cond_wait(&cond_soma, &mutex);
+      pthread_cond_wait(&cond, &mutex);
     }
     soma++;
     if(!(soma % LIMITE_DE_IMPRESSAO)) {
       IMPRIMIR = 1;
-      pthread_cond_signal(&cond_extra);
+      pthread_cond_signal(&cond);
     }
     if(soma == soma_maxima) TERMINOU = 1;
     pthread_mutex_unlock(&mutex);
@@ -48,11 +47,11 @@ void *extra(void *args) {
   while(!TERMINOU) {
     pthread_mutex_lock(&mutex);
     if(!IMPRIMIR) {
-      pthread_cond_wait(&cond_extra, &mutex);
+      pthread_cond_wait(&cond, &mutex);
     } 
     printf("soma = %ld \n", soma);
     IMPRIMIR = 0;
-    pthread_cond_broadcast(&cond_soma);
+    pthread_cond_broadcast(&cond);
     pthread_mutex_unlock(&mutex);
   }
   pthread_exit(NULL);
@@ -80,8 +79,7 @@ int main(int argc, char *argv[]) {
 
   //Criando mutex e cond
   pthread_mutex_init(&mutex, NULL);
-  pthread_cond_init(&cond_soma, NULL);
-  pthread_cond_init(&cond_extra, NULL);
+  pthread_cond_init(&cond, NULL);
 
   soma_maxima = SOMADOR_POR_THREAD * nthreads;
 
@@ -109,8 +107,7 @@ int main(int argc, char *argv[]) {
 
   //Finalizando programa
   pthread_mutex_destroy(&mutex);
-  pthread_cond_destroy(&cond_soma);
-  pthread_cond_destroy(&cond_extra);
+  pthread_cond_destroy(&cond);
 
   printf("Valor de 'soma' = %ld\n", soma);
 
