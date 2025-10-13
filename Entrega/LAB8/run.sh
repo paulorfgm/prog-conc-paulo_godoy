@@ -36,3 +36,9 @@ for i in {1..10}; do
     echo "---------"
 done > tests/teste4.txt
 
+for i in {1..10}; do 
+    echo "Teste $i:"
+    bin/./prod_seq.out 1000000 50
+    echo "---------"
+done > tests/teste5.txt
+

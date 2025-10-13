@@ -1,0 +1,140 @@
+Teste 1:
+Quantidade de primos encontrada por cada Thread:
+	-Thread [1]: 15972 primos
+	-Thread [2]: 15539 primos
+	-Thread [3]: 15390 primos
+	-Thread [4]: 15921 primos
+	-Thread [5]: 15676 primos
+
+Resultados:
+	-Quantidade total de primos (sequencial): 78498
+	-Quantidade total de primos (concorrente): 78498
+	-Thread vencedora: 1
+
+---------
+Teste 2:
+Quantidade de primos encontrada por cada Thread:
+	-Thread [1]: 15753 primos
+	-Thread [2]: 16279 primos
+	-Thread [3]: 15418 primos
+	-Thread [4]: 15565 primos
+	-Thread [5]: 15483 primos
+
+Resultados:
+	-Quantidade total de primos (sequencial): 78498
+	-Quantidade total de primos (concorrente): 78498
+	-Thread vencedora: 2
+
+---------
+Teste 3:
+Quantidade de primos encontrada por cada Thread:
+	-Thread [1]: 15485 primos
+	-Thread [2]: 15765 primos
+	-Thread [3]: 15541 primos
+	-Thread [4]: 15969 primos
+	-Thread [5]: 15738 primos
+
+Resultados:
+	-Quantidade total de primos (sequencial): 78498
+	-Quantidade total de primos (concorrente): 78498
+	-Thread vencedora: 4
+
+---------
+Teste 4:
+Quantidade de primos encontrada por cada Thread:
+	-Thread [1]: 15887 primos
+	-Thread [2]: 15574 primos
+	-Thread [3]: 15359 primos
+	-Thread [4]: 15716 primos
+	-Thread [5]: 15962 primos
+
+Resultados:
+	-Quantidade total de primos (sequencial): 78498
+	-Quantidade total de primos (concorrente): 78498
+	-Thread vencedora: 5
+
+---------
+Teste 5:
+Quantidade de primos encontrada por cada Thread:
+	-Thread [1]: 15692 primos
+	-Thread [2]: 15513 primos
+	-Thread [3]: 15797 primos
+	-Thread [4]: 15781 primos
+	-Thread [5]: 15715 primos
+
+Resultados:
+	-Quantidade total de primos (sequencial): 78498
+	-Quantidade total de primos (concorrente): 78498
+	-Thread vencedora: 3
+
+---------
+Teste 6:
+Quantidade de primos encontrada por cada Thread:
+	-Thread [1]: 15761 primos
+	-Thread [2]: 15596 primos
+	-Thread [3]: 15769 primos
+	-Thread [4]: 15797 primos
+	-Thread [5]: 15575 primos
+
+Resultados:
+	-Quantidade total de primos (sequencial): 78498
+	-Quantidade total de primos (concorrente): 78498
+	-Thread vencedora: 4
+
+---------
+Teste 7:
+Quantidade de primos encontrada por cada Thread:
+	-Thread [1]: 15851 primos
+	-Thread [2]: 15520 primos
+	-Thread [3]: 15318 primos
+	-Thread [4]: 15943 primos
+	-Thread [5]: 15866 primos
+
+Resultados:
+	-Quantidade total de primos (sequencial): 78498
+	-Quantidade total de primos (concorrente): 78498
+	-Thread vencedora: 4
+
+---------
+Teste 8:
+Quantidade de primos encontrada por cada Thread:
+	-Thread [1]: 15849 primos
+	-Thread [2]: 15672 primos
+	-Thread [3]: 15422 primos
+	-Thread [4]: 15854 primos
+	-Thread [5]: 15701 primos
+
+Resultados:
+	-Quantidade total de primos (sequencial): 78498
+	-Quantidade total de primos (concorrente): 78498
+	-Thread vencedora: 4
+
+---------
+Teste 9:
+Quantidade de primos encontrada por cada Thread:
+	-Thread [1]: 15328 primos
+	-Thread [2]: 15911 primos
+	-Thread [3]: 15771 primos
+	-Thread [4]: 15789 primos
+	-Thread [5]: 15699 primos
+
+Resultados:
+	-Quantidade total de primos (sequencial): 78498
+	-Quantidade total de primos (concorrente): 78498
+	-Thread vencedora: 2
+
+---------
+Teste 10:
+Quantidade de primos encontrada por cada Thread:
+	-Thread [1]: 15606 primos
+	-Thread [2]: 15506 primos
+	-Thread [3]: 16064 primos
+	-Thread [4]: 16051 primos
+	-Thread [5]: 15271 primos
+
+Resultados:
+	-Quantidade total de primos (sequencial): 78498
+	-Quantidade total de primos (concorrente): 78498
+	-Thread vencedora: 3
+
+---------
