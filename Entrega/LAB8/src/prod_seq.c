@@ -219,9 +219,9 @@ int main(int argc, char* argv[]) {
     printf("Resultados:\n\t-Quantidade total de primos (sequencial): %d\n\t-Quantidade total de primos (concorrente): %d\n\t-Thread vencedora: %d\n\n", qtd_primos_sequencial, qtd_global_primos, id_vencedor);
 
     //Retorno
-    sem_close(&mutex);
-    sem_close(&vetorVazio);
-    sem_close(&vetorCheio);
+    sem_destroy(&mutex);
+    sem_destroy(&vetorVazio);
+    sem_destroy(&vetorCheio);
     free(tid);
     free(vetor);
 
