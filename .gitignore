@@ -9,3 +9,5 @@ bin/
 # "Gabarito" são os códigos fornecidos pela professora como parte da explanação no laboratório
 **/gabarito/
 
+# classes java não devem ser enviadas para o repositório
+.class
